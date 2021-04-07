@@ -1,0 +1,81 @@
+#aboutArea {
+    #Video_area {
+        #bigVideo {
+            width: 275px;
+            height: 155px;
+            margin-left: 45px;
+            margin-top: 30px;
+        }
+    }
+    .video_smallbox {
+        width: 1px;
+        position: relative;
+        float: left;
+        cursor: pointer;
+        margin: 55px;
+        right: 20px;
+        #mini333,
+        #mini555,
+        #clubmen {
+            width: 70px;
+            height: 50px;
+        }
+    }
+}
+
+@media screen and (min-width: 650px) {
+    #aboutArea {
+        #Video_area {
+            margin-left: 70px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            #bigVideo {
+                width: 600px;
+                height: 330px;
+            }
+        }
+        .video_smallbox {
+            width: 80px;
+            position: relative;
+            float: left;
+            margin: 15px;
+            left: 107px;
+            top: -65px;
+            cursor: pointer;
+            #mini333,
+            #mini555,
+            #clubmen {
+                width: 100px;
+                height: 60px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #aboutArea {
+        #Video_area {
+            margin-left: 80px;
+            margin-top: 70px;
+            margin-bottom: 50px;
+            #bigVideo {
+                width: 1000px;
+                height: 530px;
+            }
+        }
+        .video_smallbox {
+            width: 150px;
+            position: relative;
+            float: left;
+            margin: 15px;
+            left: 140px;
+            cursor: pointer;
+            #mini333,
+            #mini555,
+            #clubmen {
+                width: 150px;
+                height: 100px;
+            }
+        }
+    }
+}

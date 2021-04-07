@@ -1,0 +1,195 @@
+        .lightbox {
+            display: none;
+            position: absolute;
+            top: 70px;
+            width: 79vw;
+            height: 1780px;
+            background-color: rgba(240, 205, 168, );
+            color: white;
+            padding: 40px;
+            span {
+                color: white;
+                font-size: 2em;
+                cursor: pointer;
+            }
+        }
+        
+        .image-player {
+            h4 {
+                color: white;
+                margin-top: 120px;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            p {
+                margin-top: 120px;
+                margin-bottom: 110px;
+                text-align: center;
+            }
+            h2 {
+                margin-top: 120px;
+                margin-bottom: 110px;
+                text-align: center;
+            }
+        }
+        
+        .show-lightbox {
+            display: block;
+        }
+        
+        .lb-video {
+            width: 300px;
+        }
+        
+        .lb-close {
+            float: right;
+        }
+        
+        @media screen and (min-width: 650px) {
+            .lightbox {
+                display: none;
+                position: absolute;
+                width: 90vw;
+                height: 3480px;
+                background-color: rgba(240, 205, 168, );
+                color: white;
+                padding: 40px;
+                margin-top: 50px;
+                span {
+                    color: white;
+                    font-size: 3em;
+                    cursor: pointer;
+                }
+            }
+            .image-player {
+                h4 {
+                    color: white;
+                    margin-top: 130px;
+                    font-weight: bold;
+                    font-size: 50px;
+                    margin-bottom: 80px;
+                }
+                p {
+                    margin-top: 130px;
+                    margin-bottom: 30px;
+                    font-size: 30px;
+                    text-align: center;
+                }
+            }
+            .show-lightbox {
+                display: block;
+            }
+            .lb-video {
+                width: 700px;
+                height: 500px;
+            }
+        }
+        
+        @media screen and (min-width: 1024px) {
+            .lightbox {
+                margin-top: 80px;
+                width: 58.3vw;
+                height: 5064px;
+                .Button_lightbox {
+                    margin-top: 220px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                    width: 110px;
+                    margin-left: 490px;
+                    margin-bottom: 25px;
+                }
+                .Button_lightbox a {
+                    border: 0;
+                    background: white;
+                    color: #cf9068;
+                    cursor: pointer;
+                    transition: 0.5s;
+                    border: 3px solid #d4933f;
+                    padding: 12px;
+                }
+                .Button_lightbox a:hover {
+                    background: #cf9068;
+                    color: white;
+                }
+            }
+            .image-player {
+                .lb-thumb {
+                    width: 700px;
+                    height: 400px;
+                    margin-left: 240px;
+                }
+                h4 {
+                    color: white;
+                    margin-top: 130px;
+                    font-weight: bold;
+                    font-size: 50px;
+                    margin-bottom: 80px;
+                }
+                p {
+                    margin-bottom: 30px;
+                    font-size: 30px;
+                    text-align: center;
+                }
+                h2 {
+                    text-align: center;
+                    font-size: 60px;
+                }
+                .solid {
+                    width: 700px;
+                    background-color: black;
+                    height: 20px;
+                    margin-left: 190px;
+                    margin-bottom: 30px;
+                }
+                .Duration {
+                    display: flex;
+                    flex-direction: row;
+                    h3 {
+                        font-weight: bold;
+                        font-size: 65px;
+                        margin-left: 350px;
+                        margin-top: 20px;
+                    }
+                }
+                .Frames {
+                    display: flex;
+                    flex-direction: row;
+                    h3 {
+                        font-weight: bold;
+                        font-size: 65px;
+                        margin-left: 580px;
+                        margin-top: 20px;
+                    }
+                }
+                h5 {
+                    margin-top: 50px;
+                    width: 600px;
+                    margin-left: 260px;
+                    text-align: center;
+                    font-size: 26px;
+                }
+                .lb-video {
+                    width: 1100px;
+                    height: 750px;
+                }
+                .pattern {
+                    width: 50%;
+                    margin-top: 50px;
+                    margin-left: 260px;
+                }
+                .Contact_direct {
+                    a {
+                        color: black;
+                    }
+                }
+                h6 {
+                    font-size: 20px;
+                    width: 700px;
+                    text-align: center;
+                    margin-left: 180px;
+                    margin-top: 50px;
+                    line-height: 1.8;
+                }
+            }
+        }
